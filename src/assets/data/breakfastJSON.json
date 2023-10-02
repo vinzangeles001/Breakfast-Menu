@@ -1,0 +1,20 @@
+{
+    "breakfast": [
+      {
+        "name": "Scrambled Eggs",
+        "price": 5.99,
+        "calories": 300
+      },
+      {
+        "name": "Oatmeal with Berries",
+        "price": 4.49,
+        "calories": 250
+      },
+      {
+        "name": "Avocado Toast",
+        "price": 6.79,
+        "calories": 400
+      }
+    ]
+  }
+  

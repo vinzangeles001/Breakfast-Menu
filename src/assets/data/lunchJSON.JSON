@@ -1,0 +1,19 @@
+{
+    "lunch": [
+    {
+      "name": "Grilled Chicken Salad",
+      "price": 8.99,
+      "calories": 450
+    },
+    {
+      "name": "Vegetable Wrap",
+      "price": 7.49,
+      "calories": 350
+    },
+    {
+      "name": "Quinoa Bowl",
+      "price": 9.29,
+      "calories": 500
+    }
+  ]
+}

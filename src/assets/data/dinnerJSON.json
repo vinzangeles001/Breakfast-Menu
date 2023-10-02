@@ -1,0 +1,20 @@
+
+{ 
+    "dinner": [
+    {
+      "name": "Steak with Mashed Potatoes",
+      "price": 16.99,
+      "calories": 700
+    },
+    {
+      "name": "Salmon with Asparagus",
+      "price": 14.49,
+      "calories": 600
+    },
+    {
+      "name": "Vegetarian Stir-Fry",
+      "price": 12.79,
+      "calories": 450
+    }
+  ]
+}

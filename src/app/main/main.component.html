@@ -1,0 +1,43 @@
+<mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z4">
+   
+
+    <mat-tab>
+        <div class="breakfastTab">
+        <ng-template mat-tab-label>
+            <div class="tab-label">
+            <mat-icon>wb_sunny</mat-icon>
+            <span>Breakfast</span>
+            </div>
+        </ng-template>
+        <h1 *ngFor="let food of bf"><div class="name">{{food.name}} </div><br> Price:{{food.price}} <br>Calories: {{food.calories}}</h1>
+    </div>
+    </mat-tab>
+  
+    <mat-tab>
+        <div class="lunchTab">
+      <ng-template mat-tab-label>
+        <div class="tab-label">
+          <mat-icon>brightness_7</mat-icon>
+          <span>Lunch</span>
+        </div>
+      </ng-template>
+      <h1 *ngFor="let food of lf"><div class="name">{{food.name}} </div><br> Price:{{food.price}} <br>Calories: {{food.calories}}</h1>
+    </div>
+    </mat-tab>
+  
+
+
+
+    <mat-tab>
+        <div class="dinnerTab">
+            <ng-template mat-tab-label>
+                <div class="tab-label">
+                <mat-icon>brightness_2</mat-icon>
+                <span>Dinner</span>
+                </div>
+            </ng-template>
+      <h1 *ngFor="let food of df"><div class="name">{{food.name}} </div><br> Price:{{food.price}} <br>Calories: {{food.calories}}</h1>
+        </div>
+    </mat-tab>
+  </mat-tab-group>
+  
